@@ -40,3 +40,6 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.site_title = "Administration"
+admin.site.site_header = "Incentive+"
+admin.site.index_title = "Incentive+"
